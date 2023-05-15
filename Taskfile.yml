@@ -1,6 +1,18 @@
 version: "3"
 
+# global env vars:
+env:
+    GREETING: Hello, World!
+
 tasks:
     hello:
       cmds:
-          - echo "hello world"
+          - echo $GREETING
+
+    details:
+      cmds:
+          - echo "OS:" {{OS}}
+          - echo "PWD:" $(pwd)
+
+    default:
+      deps: [hello, details]
