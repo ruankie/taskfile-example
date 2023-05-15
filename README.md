@@ -2,7 +2,7 @@
 
 Example usage of [Task](https://taskfile.dev/) and Taskfiles
 
-![task-logo](https://taskfile.dev/img/logo.svg)
+<img src="https://taskfile.dev/img/logo.svg" width="200" />
 
 ## Usage
 
