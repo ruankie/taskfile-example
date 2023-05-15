@@ -1,2 +1,2 @@
 # taskfile-example
-Example usage of Task and Taskfiles
+Example usage of [Task](https://taskfile.dev/) and Taskfiles
